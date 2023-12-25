@@ -1,0 +1,81 @@
+/* Navigation bar styles */
+        nav {
+            width: 100%;
+            padding: 0;
+            background: linear-gradient(135deg, #004aad, #cb6ce6);
+            color: white;
+        }
+
+        .container-fluid {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem;
+        }
+
+        .top-bar-title {
+            text-decoration: none;
+            color: white;
+        }
+
+        .top-bar-title img {
+            height: 60px;
+        }
+
+        .navigate {
+            display: flex;
+        }
+
+        .navigate a {
+            color: white;
+            text-decoration: none;
+            margin-right: 1rem;
+        }
+
+        /* Wrapper styles */
+        .wrapper {
+            margin: auto;
+        }
+
+        .mainbody {
+            text-align: center;
+            margin-top: 0;
+        }
+
+        /* Heading styles */
+        .heading {
+            margin-bottom: 1rem;
+        }
+
+        .ask-btn {
+            background-color: #004aad;
+            color: white;
+            padding: 0.5rem 1rem;
+            border: none;
+            cursor: pointer;
+        }
+
+        .ask-btn:hover {
+            background-color: #002e66;
+        }
+
+        /* Discover Polls styles */
+        .dpolls {
+            margin: 0 auto;
+            margin-top: 1rem;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 1rem;
+            align-items: center;
+            padding: 20px 10px;
+        }
+
+        /* Polls styles */
+        .polls {
+            border: 1px solid #dee2e6;
+            border-radius: 0.25rem;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            width: calc(25% - 20px);
+        }

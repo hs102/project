@@ -1,0 +1,107 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    margin-top: 90px; 
+
+    padding: 0;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.form-container {
+    width: 30%;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px grey;
+    border-radius: 10px;
+    margin-top: 20px; 
+    border: 2px solid #c258df; /* Add border style and color */
+}
+
+input[type="submit"] {
+    background: linear-gradient(135deg, #004aad, #cb6ce6); /* Default background color */
+    color: #fff;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+
+input[type="submit"]:hover {
+    background: linear-gradient(135deg, #cb6ce6, #004aad);
+}
+
+
+
+label {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="datetime-local"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#optionsContainer {
+    margin-bottom: 20px;
+}
+
+.optionContainer {
+    margin-bottom: 10px;
+}
+
+.removeOptionBtn {
+    background-color: #d9534f;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#addOptionBtn {
+    background: linear-gradient(135deg, #004aad, #cb6ce6);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+input[type="submit"],
+#addOptionBtn,
+.removeOptionBtn {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    margin-top: 15px;
+    color: #333;
+    font-weight: bold;
+}
+
+/* the following rule to create space below the navigation bar */
+nav + .form-container {
+    margin-top: 20px;
+}
